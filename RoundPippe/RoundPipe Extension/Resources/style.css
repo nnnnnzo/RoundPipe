@@ -1,0 +1,86 @@
+.dark .input, .dark .select, .dark .btn {
+    border-radius: 20px;
+}
+
+.text-center {
+    text-align: left !important;
+}
+
+img, video {
+    border-radius: 15px;
+}
+
+@media (min-width: 1280px) {
+    .video-grid {
+        grid-template-columns: repeat(5,minmax(0,1fr)) !important;
+        background-color: color(srgb 0.1333 0.1333 0.1334);
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+}
+
+.my-2 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.py-2\.5 {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.my-4 {
+    font-weight: bold;
+}
+
+.select {
+    -webkit-appearance: none;
+    padding: 3px 6px;
+    margin-left: 6px;
+}
+
+.pb-1\.5 {
+    padding-bottom: 1rem !important;
+    padding-top: 0.5rem !important;
+}
+
+.whitespace-pre-wrap {
+    white-space: pre-wrap;
+    margin-bottom: 1rem !important;
+    background-color: color(srgb 0.1333 0.1333 0.1334);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.w-full.pb-1\.5 {
+    border-radius: 33px;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+
+.video-grid div {
+    margin-bottom: 7px;
+}
+
+.font-bold.text-center {
+    margin-bottom: 1rem;
+}
+
+.thumbnail-overlay {
+    background-color: rgba(57, 57, 57, 0.86) !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    .xl\:col-span-4 {
+        grid-column: span 4/span 4;
+        padding-right: 30px;
+    }
+}

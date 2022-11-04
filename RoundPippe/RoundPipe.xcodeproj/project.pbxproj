@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CAD930F290E8D1300035122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD930E290E8D1300035122 /* AppDelegate.swift */; };
+		7CAD9313290E8D1300035122 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9311290E8D1300035122 /* Main.html */; };
+		7CAD9315290E8D1300035122 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9314290E8D1300035122 /* Icon.png */; };
+		7CAD9317290E8D1300035122 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9316290E8D1300035122 /* Style.css */; };
+		7CAD9319290E8D1300035122 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9318290E8D1300035122 /* Script.js */; };
+		7CAD931B290E8D1300035122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD931A290E8D1300035122 /* ViewController.swift */; };
+		7CAD931E290E8D1300035122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD931C290E8D1300035122 /* Main.storyboard */; };
+		7CAD9320290E8D1400035122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD931F290E8D1400035122 /* Assets.xcassets */; };
+		7CAD9328290E8D1400035122 /* RoundPipe Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7CAD9327290E8D1400035122 /* RoundPipe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CAD932D290E8D1400035122 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD932C290E8D1400035122 /* SafariWebExtensionHandler.swift */; };
+		7CAD9330290E8D1400035122 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD932F290E8D1400035122 /* _locales */; };
+		7CAD9332290E8D1400035122 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9331290E8D1400035122 /* images */; };
+		7CAD9334290E8D1400035122 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9333290E8D1400035122 /* manifest.json */; };
+		7CAD9336290E8D1400035122 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9335290E8D1400035122 /* background.js */; };
+		7CAD9338290E8D1400035122 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9337290E8D1400035122 /* content.js */; };
+		7CAD933A290E8D1400035122 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD9339290E8D1400035122 /* popup.html */; };
+		7CAD933C290E8D1400035122 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD933B290E8D1400035122 /* popup.css */; };
+		7CAD933E290E8D1400035122 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD933D290E8D1400035122 /* popup.js */; };
+		7CAD934B290E9A4100035122 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD934A290E9A4100035122 /* style.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CAD9329290E8D1400035122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CAD9303290E8D1300035122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAD9326290E8D1400035122;
+			remoteInfo = "RoundPippe Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CAD9346290E8D1400035122 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CAD9328290E8D1400035122 /* RoundPipe Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7CAD930B290E8D1300035122 /* RoundPipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundPipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD930E290E8D1300035122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CAD9312290E8D1300035122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7CAD9314290E8D1300035122 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7CAD9316290E8D1300035122 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7CAD9318290E8D1300035122 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7CAD931A290E8D1300035122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CAD931D290E8D1300035122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CAD931F290E8D1400035122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CAD9327290E8D1400035122 /* RoundPipe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RoundPipe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD932C290E8D1400035122 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7CAD932F290E8D1400035122 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		7CAD9331290E8D1400035122 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		7CAD9333290E8D1400035122 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7CAD9335290E8D1400035122 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7CAD9337290E8D1400035122 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		7CAD9339290E8D1400035122 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7CAD933B290E8D1400035122 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		7CAD933D290E8D1400035122 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7CAD933F290E8D1400035122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAD9340290E8D1400035122 /* RoundPipe_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoundPipe_Extension.entitlements; sourceTree = "<group>"; };
+		7CAD934A290E9A4100035122 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAD9308290E8D1300035122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD9324290E8D1400035122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAD9302290E8D1300035122 = {
+			isa = PBXGroup;
+			children = (
+				7CAD930D290E8D1300035122 /* RoundPipe */,
+				7CAD932B290E8D1400035122 /* RoundPipe Extension */,
+				7CAD930C290E8D1300035122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAD930C290E8D1300035122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD930B290E8D1300035122 /* RoundPipe.app */,
+				7CAD9327290E8D1400035122 /* RoundPipe Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAD930D290E8D1300035122 /* RoundPipe */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD930E290E8D1300035122 /* AppDelegate.swift */,
+				7CAD931A290E8D1300035122 /* ViewController.swift */,
+				7CAD931C290E8D1300035122 /* Main.storyboard */,
+				7CAD931F290E8D1400035122 /* Assets.xcassets */,
+				7CAD9310290E8D1300035122 /* Resources */,
+			);
+			path = RoundPipe;
+			sourceTree = "<group>";
+		};
+		7CAD9310290E8D1300035122 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD9311290E8D1300035122 /* Main.html */,
+				7CAD9314290E8D1300035122 /* Icon.png */,
+				7CAD9316290E8D1300035122 /* Style.css */,
+				7CAD9318290E8D1300035122 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CAD932B290E8D1400035122 /* RoundPipe Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD932C290E8D1400035122 /* SafariWebExtensionHandler.swift */,
+				7CAD933F290E8D1400035122 /* Info.plist */,
+				7CAD9340290E8D1400035122 /* RoundPipe_Extension.entitlements */,
+				7CAD932E290E8D1400035122 /* Resources */,
+			);
+			path = "RoundPipe Extension";
+			sourceTree = "<group>";
+		};
+		7CAD932E290E8D1400035122 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD932F290E8D1400035122 /* _locales */,
+				7CAD9331290E8D1400035122 /* images */,
+				7CAD9333290E8D1400035122 /* manifest.json */,
+				7CAD9335290E8D1400035122 /* background.js */,
+				7CAD9337290E8D1400035122 /* content.js */,
+				7CAD9339290E8D1400035122 /* popup.html */,
+				7CAD933B290E8D1400035122 /* popup.css */,
+				7CAD933D290E8D1400035122 /* popup.js */,
+				7CAD934A290E9A4100035122 /* style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAD930A290E8D1300035122 /* RoundPipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAD9347290E8D1400035122 /* Build configuration list for PBXNativeTarget "RoundPipe" */;
+			buildPhases = (
+				7CAD9307290E8D1300035122 /* Sources */,
+				7CAD9308290E8D1300035122 /* Frameworks */,
+				7CAD9309290E8D1300035122 /* Resources */,
+				7CAD9346290E8D1400035122 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CAD932A290E8D1400035122 /* PBXTargetDependency */,
+			);
+			name = RoundPipe;
+			productName = RoundPippe;
+			productReference = 7CAD930B290E8D1300035122 /* RoundPipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CAD9326290E8D1400035122 /* RoundPipe Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAD9343290E8D1400035122 /* Build configuration list for PBXNativeTarget "RoundPipe Extension" */;
+			buildPhases = (
+				7CAD9323290E8D1400035122 /* Sources */,
+				7CAD9324290E8D1400035122 /* Frameworks */,
+				7CAD9325290E8D1400035122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoundPipe Extension";
+			productName = "RoundPippe Extension";
+			productReference = 7CAD9327290E8D1400035122 /* RoundPipe Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAD9303290E8D1300035122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7CAD930A290E8D1300035122 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7CAD9326290E8D1400035122 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CAD9306290E8D1300035122 /* Build configuration list for PBXProject "RoundPipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CAD9302290E8D1300035122;
+			productRefGroup = 7CAD930C290E8D1300035122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAD930A290E8D1300035122 /* RoundPipe */,
+				7CAD9326290E8D1400035122 /* RoundPipe Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAD9309290E8D1300035122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD9315290E8D1300035122 /* Icon.png in Resources */,
+				7CAD931E290E8D1300035122 /* Main.storyboard in Resources */,
+				7CAD9319290E8D1300035122 /* Script.js in Resources */,
+				7CAD9313290E8D1300035122 /* Main.html in Resources */,
+				7CAD9320290E8D1400035122 /* Assets.xcassets in Resources */,
+				7CAD9317290E8D1300035122 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD9325290E8D1400035122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD9336290E8D1400035122 /* background.js in Resources */,
+				7CAD934B290E9A4100035122 /* style.css in Resources */,
+				7CAD933C290E8D1400035122 /* popup.css in Resources */,
+				7CAD933A290E8D1400035122 /* popup.html in Resources */,
+				7CAD9332290E8D1400035122 /* images in Resources */,
+				7CAD9334290E8D1400035122 /* manifest.json in Resources */,
+				7CAD9330290E8D1400035122 /* _locales in Resources */,
+				7CAD9338290E8D1400035122 /* content.js in Resources */,
+				7CAD933E290E8D1400035122 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAD9307290E8D1300035122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD931B290E8D1300035122 /* ViewController.swift in Sources */,
+				7CAD930F290E8D1300035122 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD9323290E8D1400035122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD932D290E8D1400035122 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CAD932A290E8D1400035122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CAD9326290E8D1400035122 /* RoundPipe Extension */;
+			targetProxy = 7CAD9329290E8D1400035122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CAD9311290E8D1300035122 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAD9312290E8D1300035122 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7CAD931C290E8D1300035122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAD931D290E8D1300035122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CAD9341290E8D1400035122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CAD9342290E8D1400035122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7CAD9344290E8D1400035122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RoundPipe Extension/RoundPipe_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3XX776A652;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RoundPipe Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RoundPipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnnnzo.RoundPipe.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7CAD9345290E8D1400035122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RoundPipe Extension/RoundPipe_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3XX776A652;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RoundPipe Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RoundPipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnnnzo.RoundPipe.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7CAD9348290E8D1400035122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoundPipe/RoundPipe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3XX776A652;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoundPipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnnnzo.RoundPipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7CAD9349290E8D1400035122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoundPipe/RoundPipe.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3XX776A652;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoundPipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnnnzo.RoundPipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAD9306290E8D1300035122 /* Build configuration list for PBXProject "RoundPipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD9341290E8D1400035122 /* Debug */,
+				7CAD9342290E8D1400035122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAD9343290E8D1400035122 /* Build configuration list for PBXNativeTarget "RoundPipe Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD9344290E8D1400035122 /* Debug */,
+				7CAD9345290E8D1400035122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAD9347290E8D1400035122 /* Build configuration list for PBXNativeTarget "RoundPipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD9348290E8D1400035122 /* Debug */,
+				7CAD9349290E8D1400035122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAD9303290E8D1300035122 /* Project object */;
+}
